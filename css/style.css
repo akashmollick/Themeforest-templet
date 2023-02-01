@@ -1,2 +1,41 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400;500;700&display=swap');
-/* font-family: 'Roboto Slab', serif; */
+:root{
+    --primary: #263E56;
+    --secondary: #637b92;
+}
+body{
+    font-family: 'Roboto Slab', serif;
+    font-size: 15px;
+    color: var(--secondary);
+
+}
+.btn-outline{
+    
+    color: var(--primary);
+    padding: 12px 55px;
+    border: 2px solid var(--primary);
+
+}
+.btn-outline:hover{
+   background-color: var(--primary);
+   color: #fff;
+   border-radius: 7px;
+
+}
+.nav-item{
+    padding: 0px 10px;
+}
+.nav-item a{
+    color: var(--secondary);
+    font-weight: 500;
+    font-size: 20px;
+}
+.nav-item a:hover{
+    color: var(--primary);
+}
+.navbar-logo {
+    color: var(--secondary);
+    font-weight: 700;
+    font-size: 30px;
+
+}
